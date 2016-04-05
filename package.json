@@ -1,0 +1,37 @@
+{
+  "name": "animefindr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audreyandoy/animefindr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audreyandoy/animefindr/issues"
+  },
+  "homepage": "https://github.com/audreyandoy/animefindr#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "express": "^4.13.4",
+    "gulp-sass": "^2.2.0",
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.28.5",
+    "react-router": "^2.0.1",
+    "request": "^2.69.0"
+  }
+}

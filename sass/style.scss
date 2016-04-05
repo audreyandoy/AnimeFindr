@@ -1,0 +1,20 @@
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+  color: pink;
+  background-color: black;
+}
+
+.well {
+  background-color: black;
+}
+
+.navbar {
+  list-style: none;
+  background-color: black;
+
+  li {
+    display: inline;
+  }
+
+}
