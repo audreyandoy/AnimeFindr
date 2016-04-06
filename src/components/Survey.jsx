@@ -8,7 +8,7 @@ const Survey = React.createClass({
       <div>
         <NavBar />
 
-       <h1> la la la laaa </h1>
+       <h1> Is this your first anime? </h1>
       </div>
     );
   }

@@ -5829,3 +5829,6 @@ body {
   background-color: black; }
   .navbar li {
     display: inline; }
+
+img {
+  float: left; }

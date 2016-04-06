@@ -19,12 +19,12 @@ var App = React.createClass({
           <Route path="/profile" component={Profile} />
           <Route path="/Survey" component={Survey} />
           <Route path="/ListAll" component={ListAll} />
-          <Route path="/ShowAnime" component={ShowAnime} />
+          <Route path="/ShowAnime/:animeID" component={ShowAnime} />
        </Router>
 
 
 
-       
+
     );
   }
   

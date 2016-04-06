@@ -13,7 +13,7 @@ const Home = React.createClass({
             <h1>Welcome to AnimeFindr</h1>
 
             <p>
-              Click here to find your next anime
+              Click the button to find your next anime
                 <p>
                   <Link to='/survey' className="btn btn-default">Survey</Link>
 
