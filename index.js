@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 //models
 var mongoose = require('mongoose');
 var User = require('./models/user');
-mongoose.connect('mongodb://localhost/animefindr');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/animefindr');
 
 //controllers
 app.use('/api/users', require('./controllers/users'));
@@ -38,4 +38,4 @@ app.get('*', function(req, res) {
   res.sendFile(__dirname + '/public/index.html');
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
