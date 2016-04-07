@@ -37,6 +37,7 @@
     "react-dom": "^0.14.8",
     "react-portal": "^2.1.0",
     "react-router": "^2.0.1",
-    "request": "^2.69.0"
+    "request": "^2.69.0",
+    "xml2json": "^0.9.0"
   }
 }
