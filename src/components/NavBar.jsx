@@ -14,6 +14,7 @@ const NavBar = React.createClass({
               <li><a className="navbar-brand" href="/">AnimeFindr</a></li>
               <li><a href="/Profile">Profile</a></li>
               <li><a href="/Survey">Survey</a></li>
+              <li><a href="/Login">Login</a></li>
             </ul>
           
           

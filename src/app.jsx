@@ -3,7 +3,10 @@ const ReactDOM = require('react-dom');
 const Home = require('./components/Home');
 const Profile = require('./components/Profile');
 const Survey = require('./components/Survey');
-const ListAll = require('./components/ListAll');
+const Login = require('./components/Login');
+const SignUp = require('./components/SignUp');
+
+const AnimeGenre = require('./components/AnimeGenre');
 const ShowAnime = require('./components/ShowAnime');
 
 
@@ -18,13 +21,13 @@ var App = React.createClass({
           <Route path="/" component={Home} />
           <Route path="/profile" component={Profile} />
           <Route path="/Survey" component={Survey} />
-          <Route path="/ListAll" component={ListAll} />
+          <Route path="/AnimeGenre" component={AnimeGenre} />
           <Route path="/ShowAnime/:animeID" component={ShowAnime} />
+          <Route path="/Login" component={Login} />
+          <Route path="/SignUp" component={SignUp} />
+
+
        </Router>
-
-
-
-
     );
   }
   

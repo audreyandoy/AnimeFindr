@@ -10,8 +10,13 @@ const Profile = React.createClass({
           <div className="well">
         
             <h1>User Profile</h1>
-
+              Insert User info.
            
+          </div>
+
+          <div className="well">
+
+          <h1>Your Watch List:</h1>
           </div>
       </div>
     );

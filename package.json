@@ -26,9 +26,12 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.15.0",
     "bootstrap-sass": "^3.3.6",
     "express": "^4.13.4",
+    "express-router": "0.0.1",
     "gulp-sass": "^2.2.0",
+    "mongoose": "^4.4.11",
     "react": "^0.14.8",
     "react-bootstrap": "^0.28.5",
     "react-dom": "^0.14.8",
