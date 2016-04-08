@@ -2,25 +2,27 @@ var mongoose = require('mongoose');
 
 // create a schema
 var userSchema = new mongoose.Schema({
-  name: {
-         required: true,
-         type: String
-  },
-  email: { type: String, 
-           required: true,
-           unique: true  
-  },
-  password: { type: String, 
-              required: true, 
-  }
+    local            : {
+        email        : String,
+        password     : String,
+    },
+    facebook         : {
+        id           : String,
+        token        : String,
+        email        : String,
+        name         : String
+    },
+    favorites        :{
+        name         : String
+    }  // push on new favorites
 });
 
 userSchema.set('toJSON', {
   transform: function(doc, ret, options) {
     var returnJson = {
-      id: ret._id,
-      email: ret.email,
-      name: ret.name
+      id: ret.facebook._id,
+      email: ret.facebook.email,
+      name: ret.facebook.name
     };
     return returnJson
   }

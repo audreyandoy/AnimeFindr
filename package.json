@@ -28,16 +28,22 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "bootstrap-sass": "^3.3.6",
+    "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
     "express-router": "0.0.1",
+    "express-session": "^1.13.0",
     "gulp-sass": "^2.2.0",
     "mongoose": "^4.4.11",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "passport-local": "^1.0.0",
     "react": "^0.14.8",
     "react-bootstrap": "^0.28.5",
     "react-dom": "^0.14.8",
     "react-portal": "^2.1.0",
     "react-router": "^2.0.1",
     "request": "^2.69.0",
+    "session": "^0.1.0",
     "xml2json": "^0.9.0"
   }
 }

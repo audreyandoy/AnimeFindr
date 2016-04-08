@@ -61,7 +61,7 @@ const ShowAnime = React.createClass({
          <p><b>Number of episodes: </b>{this.state.ep}</p>
 
 
-        <Link to='/Profile' className="btn btn-default">Add to Watch List</Link>
+        <Link to='/Profile' onClick={this.addFav} className="btn btn-default">Add to Watch List</Link>
 
        </div>
       </div>

@@ -11,22 +11,16 @@ const Login = React.createClass({
       <div>
        <NavBar />
 
+         <div class="jumbotron text-center">
+            <h1><span class="fa fa-lock"></span> Node Authentication</h1>
 
+            <p>Login or Register with:</p>
+
+            <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
+
+        </div>
        
-          <form className="well">
-            <legend>Login</legend>
-
-          <div className="form-group">
-              <h3>Email</h3>
-            <input typeName="email" className="form-control" id="email" placeholder="test@test.com" />
-          </div>
-          <div className="form-group">
-              <h3>Password</h3>
-            <input type="password" className="form-control" id="password" placeholder="********" />
-          </div>
-
-          <button type="submit" className="btn btn-primary">Login</button>
-        </form>
+        
 
       </div>
     );

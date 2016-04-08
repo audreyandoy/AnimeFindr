@@ -25,8 +25,6 @@ var App = React.createClass({
           <Route path="/ShowAnime/:animeID" component={ShowAnime} />
           <Route path="/Login" component={Login} />
           <Route path="/SignUp" component={SignUp} />
-
-
        </Router>
     );
   }
