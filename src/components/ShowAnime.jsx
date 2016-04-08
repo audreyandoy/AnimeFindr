@@ -48,6 +48,7 @@ const ShowAnime = React.createClass({
            });
       })
   },
+ 
   render: function() {
     return (
       <div>
