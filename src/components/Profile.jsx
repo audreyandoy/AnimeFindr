@@ -16,12 +16,7 @@ const Profile = React.createClass({
 
                     <p>
 
-                    //do a fetch to retrieve user info from db.
-
-                        <strong>id</strong>:  user.facebook.id <br />
-                        <strong>token</strong>: user.facebook.token <br />
-                        <strong>email</strong>: user.facebook.email <br />
-                        <strong>name</strong>: user.facebook.name 
+                    "Coming Soon"
                     </p>
 
             </div>
@@ -32,6 +27,7 @@ const Profile = React.createClass({
           <div className="well">
 
           <h1>Your Watch List:</h1>
+            "Coming Soon"
           </div>
       </div>
     );

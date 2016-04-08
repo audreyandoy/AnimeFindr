@@ -5,22 +5,24 @@ const Link = require('react-router').Link;
 
 
 const Survey = React.createClass({
+
   render: function() {
 
   const button = <button className="btn btn-default">Yes</button>;
-
-
     return (
       <div>
         <NavBar />
 
-    <h1>Is this your first Anime?</h1>
-      <Portal closeOnEsc closeOnOutsideClick openByClickOn={button}>
+    <h1 className="middle">Is this your first Anime?</h1>
+      <Portal closeOnEsc openByClickOn={button}>
         <FirstAnimeModal>
-          <h2>You should try these!</h2>
-              <p><a href="/ShowAnime/10216">Fullmetal Alchemist: Brotherhood</a></p>
-              <p><a href="/ShowAnime/13">Cowboy Bebop</a></p>
-              <p><a href="/ShowAnime/6592">Death Note</a></p>
+          <h1>Yes! Try these!</h1><h4>Click on the title for more info about the show</h4>
+              <p><h3><a href="/ShowAnime/10216">Fullmetal Alchemist: Brotherhood</a></h3>
+              An epic series like Avatar: The Last Airbender</p>
+              <p><h3><a href="/ShowAnime/13">Cowboy Bebop</a></h3>
+              A Space western like Firefly and Guardians of the Galaxy</p>
+              <p><h3><a href="/ShowAnime/6592">Death Note</a></h3>
+              A Crime drama with mindgames with the Grim Reaper</p>
         </FirstAnimeModal>
       </Portal>
                <Link to='/AnimeGenre' className="btn btn-default">No</Link>
@@ -32,7 +34,7 @@ const Survey = React.createClass({
 const FirstAnimeModal = React.createClass({
   render: function() {
     return (
-      <div className="well">
+      <div className="well show">
         {this.props.children}
         <p><button onClick={this.props.closePortal} className="btn btn-default">Close me</button></p>
       </div>

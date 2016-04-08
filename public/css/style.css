@@ -5819,10 +5819,24 @@ button.close {
 
 body {
   color: pink;
-  background-color: black; }
+  background-color: black;
+  text-align: center; }
 
 .well {
   background-color: black; }
+
+.middle {
+  margin-top: 10%; }
+
+.show {
+  margin-top: 3%; }
+
+.info {
+  text-align: left; }
+
+.btn {
+  margin-left: 10px;
+  border-radius: 20px; }
 
 .navbar {
   list-style: none;

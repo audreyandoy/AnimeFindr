@@ -8,7 +8,7 @@ const Home = React.createClass({
     return (
       <div> 
         <NavBar />
-          <div className="well">
+          <div className="well middle">
         
             <h1>Welcome to AnimeFindr</h1>
 

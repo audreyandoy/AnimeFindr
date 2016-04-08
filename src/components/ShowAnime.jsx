@@ -64,16 +64,16 @@ const ShowAnime = React.createClass({
       <div>
        <NavBar />
        <div className="well">
-
-         
          <img src={this.state.pic} />
+
+         <div className="info">
          <h1>{this.state.anime} {this.state.jtitle}</h1>
-         <p><b>Plot summary: </b>{this.state.plot}</p>
-         <p><b>Number of episodes: </b>{this.state.ep}</p>
+         <h4>Plot summary:</h4>
+         <p>{this.state.plot}</p>
+         <h4>Number of episodes: {this.state.ep} </h4>
 
-
-        <Link to='/Profile' onClick={this.addFav} className="btn btn-default">Add to Watch List</Link>
-
+       <p> <Link to='/Profile' onClick={this.addFav} className="btn btn-default">Add to Watch List</Link></p>
+       </div>
        </div>
       </div>
     );
