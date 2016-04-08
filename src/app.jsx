@@ -7,6 +7,7 @@ const Login = require('./components/Login');
 const SignUp = require('./components/SignUp');
 const LogOut = require('./components/LogOut');
 const AnimeGenre = require('./components/AnimeGenre');
+const About = require('./components/About');
 const ShowAnime = require('./components/ShowAnime');
 
 
@@ -24,6 +25,7 @@ var App = React.createClass({
           <Route path="/AnimeGenre" component={AnimeGenre} />
           <Route path="/ShowAnime/:animeID" component={ShowAnime} />
           <Route path="/Login" component={Login} />
+          <Route path="/About" component={About} />
           <Route path="/SignUp" component={SignUp} />
           <Route path="/Logout" component={LogOut} />
 
