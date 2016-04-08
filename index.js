@@ -61,6 +61,7 @@ app.get('/api/anime/:id', function(req, res) {
 // Controllers
 app.use('/api/users', require('./controllers/users'));
 
+
 // React
 app.get('*', function(req, res) {
   res.sendFile(__dirname + '/public/index.html');

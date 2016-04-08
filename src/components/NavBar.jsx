@@ -15,6 +15,8 @@ const NavBar = React.createClass({
               <li><a href="/Profile">Profile</a></li>
               <li><a href="/Survey">Survey</a></li>
               <li><a href="/Login">Login</a></li>
+              <li><a href="/Logout">Logout</a></li>
+
             </ul>
           
           

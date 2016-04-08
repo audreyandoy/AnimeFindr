@@ -48,7 +48,17 @@ const ShowAnime = React.createClass({
            });
       })
   },
- 
+  addFav: function() {
+      this.setState({
+        favorites: {}
+      });
+      var self = this;
+      $.post(`/api/users/addFav`).done(function(favorites){
+        self.setState({
+          favorites: favorites 
+        });
+      })
+  },
   render: function() {
     return (
       <div>
