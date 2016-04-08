@@ -11,11 +11,10 @@ const NavBar = React.createClass({
 
           <div className="collapse navbar-collapse navbar-ex1-collapse">
             <ul className="nav navbar-nav">
-              <li><a className="navbar-brand" href="/">AnimeFindr</a></li>
-              <li><a href="/Profile">Profile</a></li>
-              <li><a href="/Survey">Survey</a></li>
-              <li><a href="/Login">Login</a></li>
-              <li><a href="/Logout">Logout</a></li>
+              <button className="btn btn-default"><a href="/Profile">Profile</a></button>
+              <button className="btn btn-default"><a href="/Survey">Survey</a></button>
+              <button className="btn btn-default"><a href="/Login">Login</a></button>
+              <button className="btn btn-default"><a href="/Logout">Logout</a></button>
 
             </ul>
           

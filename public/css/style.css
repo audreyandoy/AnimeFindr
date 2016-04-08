@@ -5818,12 +5818,13 @@ button.close {
     display: none !important; } }
 
 body {
-  color: pink;
-  background-color: black;
+  color: white;
+  background-color: red;
   text-align: center; }
 
 .well {
-  background-color: black; }
+  background-color: black;
+  border: none; }
 
 .middle {
   margin-top: 10%; }
@@ -5836,13 +5837,19 @@ body {
 
 .btn {
   margin-left: 10px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  border-color: none;
+  background-color: invisible; }
 
-.navbar {
+.navbar, .navbar-default {
   list-style: none;
-  background-color: black; }
-  .navbar li {
+  color: white;
+  background-color: red;
+  border: none; }
+  .navbar li, .navbar-default li {
     display: inline; }
+  .navbar .btn, .navbar-default .btn {
+    background-color: red; }
 
 img {
   float: left; }
