@@ -12,10 +12,7 @@ var userSchema = new mongoose.Schema({
         email        : String,
         name         : String
     },
-    favorites        :[{
-        id           : Number,
-        name         : String
-    }]  // push on new favorites
+    favorites        : []  // push on new favorites
 });
 
 userSchema.set('toJSON', {
